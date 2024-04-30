@@ -1,0 +1,240 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.arc header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFFFFF;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 50px;
+    width: 99%;
+    padding: 0 10px;
+    position: fixed;
+    z-index: 99;
+    box-shadow: 1px 1px 8px 1px rgba(128, 128, 128, 0.46);   
+}
+
+.arc header p a{
+    text-decoration: none;
+    padding: 10px 12px;
+    letter-spacing: 4px;
+    color: black; 
+}
+
+.arc header p span{
+    margin-right: 7px;
+}
+
+.arc header p a:hover{
+    background-color: #b1b1b1;
+}
+
+.arc header ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 1%;
+}
+
+.arc header ul li{
+    list-style-type: none;
+}
+
+.arc header ul li a{
+    text-decoration:none;
+    padding: 10px 12px;
+    letter-spacing: 4px;
+    color: black; 
+}
+
+.arc header ul li a:hover{
+    background-color: #b1b1b1;
+}
+
+.arc .banner{
+    background: url(img/architect.jpg) no-repeat center/cover;
+    height: 700px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.arc .banner img{
+    width: 1483px;
+}
+
+.arc .banner p{
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    letter-spacing: 4px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.arc .banner p span{
+    padding: 8px 16px;
+    background-color: black;
+    color: white;
+}
+
+.mid{
+   padding: 5px 32px;
+   font-family: sans-serif;
+}
+
+.arc .mid .pro{
+    padding: 16px 0;
+    margin: 10px 0;
+    font-size: 20px;
+}
+
+.hr {
+    height: 1px; 
+    background-color: rgba(0, 0, 0, 0.129); 
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.houses{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 30px 0;
+    align-items: center;
+    box-sizing: inherit;
+    justify-content: space-between;
+    row-gap: 10px;
+}
+
+.houses .pic{
+    position: relative;
+}
+
+.houses .pic img{
+    width: 340px;
+    height: 230px; 
+}
+
+.houses .pic .text{
+    position: absolute;
+    padding: 8px 16px;
+    background-color: black;
+    color: white; 
+    margin-right: 1%;
+    top: 0;  
+    z-index: 99;
+    text-wrap: wrap;
+    flex-direction: column ;
+    
+}
+
+.arc .mid .lo{
+    font-size: 18px;
+    margin: 15px 0;
+    /* padding: 0 16px; */
+}
+
+.arc .mid .faces{
+    display: flex; 
+    width: 100%;
+}
+
+.arc .mid .faces .box{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 500px;
+    height: 500px;
+}
+
+.arc .faces .box img{
+    width: 340px;
+    padding: 20px 0 10px 0 ;
+}
+
+.arc .faces .box .name{
+   font-size: 24px;
+   /* padding: 15px 0; */
+}
+
+.arc .faces .box .job{
+    font-size: 15px;
+    color: grey;
+    padding: 15px 0;
+}
+
+.arc .faces .box .des{
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+
+.mid .faces .box p{
+    font-size: 20px;
+}
+
+.box button{
+    padding: 8px 16px;
+    background-color: #F1F1F1;
+    width: 340px;
+    height: 40px;
+    border: none;
+    font-size: 16px;
+}
+
+.box button:hover{
+    background-color: #b1b1b1;
+}
+
+.map img{
+    width: 1419px;
+}
+
+.contact form{
+    padding: 50px 0;
+}
+
+.contact form input{
+    width: 100%;
+    height: 45px;
+    text-indent: 10px;
+    margin: 5px 0;
+    border-width: 0.4px;
+}
+
+.contact form button{
+    padding: 8px 16px;
+    margin-top: 20px ;
+    height: 45px;
+    border: none;
+    background-color: black;
+    color: white;
+}
+
+.contact form button:hover{
+    background-color: #b1b1b1;
+}
+
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p, a{
+    color: white;
+}
+
+footer p a:hover{
+    color: green;
+}
